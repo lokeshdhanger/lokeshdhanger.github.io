@@ -14,7 +14,7 @@
       const cid = urlParams.get('agcid');
 
       //prepare url
-      const url = "https://"+hostname+"/track_c?offer_id="+offer_id+"&affiliate_id="+affiliate_id+"&agcid="+cid;
+      let url = "https://"+hostname+"/track_c?offer_id="+offer_id+"&affiliate_id="+affiliate_id+"&agcid="+cid;
       console.log(url)
       
       const aff_sub = urlParams.get('aff_sub');
