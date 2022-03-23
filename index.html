@@ -1,64 +1,64 @@
-<a href="https://www.dropbox.com/">test link</a>
+<a href="https://lokeshtest.trkit.org/track_c?affiliate_id=4&offer_id=181">test link</a>
 
 
 <script>
   
-  document.addEventListener('readystatechange', () => {    
-  if (document.readyState == 'complete') {
+//   document.addEventListener('readystatechange', () => {    
+//   if (document.readyState == 'complete') {
 
-    //get ofer id and affiliate id
-      const urlParams = new URLSearchParams(window.location.search);
-      const offer_id = urlParams.get('oid');
-      const affiliate_id = urlParams.get('aid');
-      const hostname = urlParams.get('td');
-      const cid = urlParams.get('agcid');
+//     //get ofer id and affiliate id
+//       const urlParams = new URLSearchParams(window.location.search);
+//       const offer_id = urlParams.get('oid');
+//       const affiliate_id = urlParams.get('aid');
+//       const hostname = urlParams.get('td');
+//       const cid = urlParams.get('agcid');
 
-      //prepare url
-      let url = "https://"+hostname+"/track_c?offer_id="+offer_id+"&affiliate_id="+affiliate_id+"&agcid="+cid;
-      console.log(url)
+//       //prepare url
+//       let url = "https://"+hostname+"/track_c?offer_id="+offer_id+"&affiliate_id="+affiliate_id+"&agcid="+cid;
+//       console.log(url)
       
-      const aff_sub = urlParams.get('aff_sub');
-      if(aff_sub){
-        url=url+"&aff_sub="+aff_sub;
-      }
+//       const aff_sub = urlParams.get('aff_sub');
+//       if(aff_sub){
+//         url=url+"&aff_sub="+aff_sub;
+//       }
 
-      const aff_sub1 = urlParams.get('aff_sub1');
-      if(aff_sub1){
-        url=url+"&aff_sub1="+aff_sub1;
-      }
+//       const aff_sub1 = urlParams.get('aff_sub1');
+//       if(aff_sub1){
+//         url=url+"&aff_sub1="+aff_sub1;
+//       }
 
-      const aff_sub2 = urlParams.get('aff_sub2');
-      if(aff_sub2){
-        url=url+"&aff_sub2="+aff_sub2;
-      }
+//       const aff_sub2 = urlParams.get('aff_sub2');
+//       if(aff_sub2){
+//         url=url+"&aff_sub2="+aff_sub2;
+//       }
 
-      const aff_sub3 = urlParams.get('aff_sub3');
-      if(aff_sub3){
-        url=url+"&aff_sub3="+aff_sub3;
-      }
+//       const aff_sub3 = urlParams.get('aff_sub3');
+//       if(aff_sub3){
+//         url=url+"&aff_sub3="+aff_sub3;
+//       }
 
-      const aff_sub4 = urlParams.get('aff_sub4');
-      if(aff_sub4){
-        url=url+"&aff_sub4="+aff_sub4;
-      }
+//       const aff_sub4 = urlParams.get('aff_sub4');
+//       if(aff_sub4){
+//         url=url+"&aff_sub4="+aff_sub4;
+//       }
 
-      const aff_sub5 = urlParams.get('aff_sub5');
-      if(aff_sub5){
-        url=url+"&aff_sub5="+aff_sub5;
-      }
+//       const aff_sub5 = urlParams.get('aff_sub5');
+//       if(aff_sub5){
+//         url=url+"&aff_sub5="+aff_sub5;
+//       }
 
-      const origin = urlParams.get('source'); //source
-      if(origin){
-        url=url+"&source="+origin;
-      }
+//       const origin = urlParams.get('source'); //source
+//       if(origin){
+//         url=url+"&source="+origin;
+//       }
 
-      console.log(url);
+//       console.log(url);
     
-    var els = document.getElementsByTagName("a");
-      for (var i=0; i < els.length; i++) {
-          els[i].setAttribute("href", url);
-      }
-	 }
-});
+//     var els = document.getElementsByTagName("a");
+//       for (var i=0; i < els.length; i++) {
+//           els[i].setAttribute("href", url);
+//       }
+// 	 }
+// });
   
 </script>
